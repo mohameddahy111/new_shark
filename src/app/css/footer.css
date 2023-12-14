@@ -1,0 +1,11 @@
+a{
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+a:hover{
+    text-decoration: underline #f0c000;
+}
+.grid{
+    padding-top: 100px !important;
+}

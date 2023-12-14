@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import HeadersMenu from "./components/HeadersMenu";
 import { DataStoreProvider } from "./context/DataStore";
 import "./globals.css";
@@ -16,7 +17,9 @@ export default function RootLayout({children}) {
           <HeadersMenu />
         </header>
         <main>{children}</main>
-        <footer></footer>
+          <footer>
+            <Footer/>
+        </footer>
         </DataStoreProvider>
       </body>
     </html>

@@ -6,7 +6,7 @@ import styles from "@/app/page.module.css";
 
 export default function ImageBox() {
   return (
-    <Container>
+    <Container >
       <Grid container spacing={1}>
         <Grid item md={6} xs={12}>
           <Box
