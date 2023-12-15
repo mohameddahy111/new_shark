@@ -9,7 +9,7 @@ import HomeSection from "../components/buyHome/HomeSection";
 
 export default function page() {
   return (
-    <div>
+    <div >
       <BuyTitle />
       <HomeSection/>
       <AboutTitle />
