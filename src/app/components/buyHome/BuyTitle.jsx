@@ -4,8 +4,7 @@ import {Box, Button, Container, Grid, Typography} from "@mui/material";
 import Image from "next/image";
 import React from "react";
 import {Rectangle_46} from "../../../../public/img";
-import VerifyWithBlue from "./verifyWithBlue";
-import GenlarGrid from "../GenlarGrid";
+import VerifyWithBlue from "./VerifyWithBlue";
 
 export default function BuyTitle() {
   const list = [
