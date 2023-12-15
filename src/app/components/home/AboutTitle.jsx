@@ -1,4 +1,7 @@
-import {Box, Container, Typography} from "@mui/material";
+"use client"
+
+
+import { Box, Container, Typography } from "@mui/material";
 import React from "react";
 import styles from "@/app/page.module.css";
 import {sharkLogo} from "../../../../public/img";

@@ -1,11 +1,13 @@
-import {Box, Typography} from "@mui/material";
+"use client"
+
+import { Box, Typography } from "@mui/material";
 import React from "react";
 
-export default function BadgeLabel() {
+export default function BadgeLabel({color , text}) {
   return (
     <Box
       width={"100%"}
-      bgcolor={"#f0c000"}
+      bgcolor={`${color}`}
       mt={5}
       height={300}
       display={"flex"}
@@ -19,7 +21,7 @@ export default function BadgeLabel() {
         fontWeight={800}
       
       >
-        Wanna Learn More?
+      {text}
       </Typography>
       <Box bgcolor={"#000"} p={5} color={"#fff"} borderRadius={'50px 0px 50px 20px'}>
         <Typography>CALL US ON+1(800) 123 - 4567</Typography>

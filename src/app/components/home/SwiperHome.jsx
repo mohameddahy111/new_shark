@@ -11,6 +11,7 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import "../../css/swiperHome.css";
 import SwiberBut from "./SwiberBut";
+import { Autoplay} from 'swiper/modules'
 export default function SwiperHome() {
   return (
     <Box>
@@ -29,7 +30,13 @@ export default function SwiperHome() {
           <Swiper
             slidesPerView={3}
             spaceBetween={30}
+            autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+
             className="mySwiper"
+            modules={[Autoplay]}
             breakpoints={{
               300: {
                 slidesPerView: 1,

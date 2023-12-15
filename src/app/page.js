@@ -19,7 +19,7 @@ export default function Home() {
       <SwiperHome />
       <AboutTitle />
       <HowDo />
-      <BadgeLabel/>
+      <BadgeLabel color={"#f0c000"} text={"Wanna Learn More?"}/>
     </Box>
   );
 }

@@ -16,9 +16,12 @@ import {
 import Image from "next/image";
 import React, {useState} from "react";
 import {logo} from "../../../public/img";
+import {usePathname, useRouter} from "next/navigation";
 
 export default function MobileDrawer({list}) {
   const [open, setOpen] = useState(false);
+  const router = useRouter();
+  const path = usePathname();
 
   return (
     <Box
@@ -47,9 +50,31 @@ export default function MobileDrawer({list}) {
             <Box>
               <List>
                 {list?.map((ele, index) => (
-                  <ListItem key={index}>
-                    <ListItemButton>{ele.title}</ListItemButton>
-                  </ListItem>
+                  <React.Fragment key={index}>
+                    {path === "/buy_home" ? (
+                      <ListItem>
+                        <ListItemButton
+                          onClick={() => {
+                            router.push(`${ele.path}`);
+                            setOpen(false);
+                          }}
+                        >
+                          {ele.title}
+                        </ListItemButton>
+                      </ListItem>
+                    ) : (
+                      ele.title !== "See Listings" && (
+                        <ListItemButton
+                          onClick={() => {
+                            router.push(`${ele.path}`);
+                            setOpen(false);
+                          }}
+                        >
+                          {ele.title}
+                        </ListItemButton>
+                      )
+                    )}
+                  </React.Fragment>
                 ))}
               </List>
             </Box>
