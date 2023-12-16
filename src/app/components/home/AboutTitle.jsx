@@ -29,7 +29,7 @@ export default function AboutTitle() {
         </Box>
       </Container>
 
-      <Box mx={'auto'} mt={5} p={5} bgcolor={"#000"} color={"#e3e3e3"} borderRadius={'10px'}>
+      <Box mx={'auto'} mt={5} p={5} bgcolor={"#000"} color={"#e3e3e3"}>
         <Box>
           <Box display={"flex"} alignItems={"center"} gap={2}>
             <Image width={110} src={sharkLogo} alt="logo" />

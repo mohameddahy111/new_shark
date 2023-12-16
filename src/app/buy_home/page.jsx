@@ -6,12 +6,14 @@ import BadgeLabel from "../components/home/BadgeLabel";
 import BuyTitle from "../components/buyHome/BuyTitle";
 import '../css/buyhome.css'
 import HomeSection from "../components/buyHome/HomeSection";
+import SectionWitnColorsPoint from "../components/buyHome/SectionWitnColorsPoint";
 
 export default function page() {
   return (
     <div >
       <BuyTitle />
-      <HomeSection/>
+      <HomeSection />
+      <SectionWitnColorsPoint/>
       <AboutTitle />
       <SwiperHome />
       <HowDo />
