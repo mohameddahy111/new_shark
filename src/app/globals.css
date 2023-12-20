@@ -1,5 +1,9 @@
+@font-face {
+    font-family: "so pro";
+    src: url('./fonts/SF-Pro-Display-Black.otf');
+}
 *{
-    font-family: sans-serif;
+    font-family: "so pro";
 }
 a{
     text-decoration: none;
