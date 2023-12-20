@@ -7,7 +7,7 @@ export default function SharkTitle() {
           <div className={styles.wrapper}>
 	<svg className={styles.svg}>
 		<text x="50%" y="50%" dy=".35em" textAnchor="middle">
-			shark
+    Shark Home Solutions
 		</text>
 	</svg>
 </div>

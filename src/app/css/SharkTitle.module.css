@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Slackey&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Slackey&display=swap"); */
 
 .svg {
   font-family: "Slackey", sans-serif;
@@ -9,7 +9,7 @@
   animation: stroke 8s infinite alternate;
   stroke-width: 2;
   stroke: #208080;
-  font-size: 116px;
+  font-size: 100px;
 }
 @keyframes stroke {
   0% {
@@ -29,7 +29,7 @@
     stroke-width: 3;
   }
   100% {
-    fill: #208080;
+    fill: #f0c000;
     stroke: rgba(240, 192, 0, 0);
     stroke-dashoffset: -25%;
     stroke-dasharray: 50% 0;
