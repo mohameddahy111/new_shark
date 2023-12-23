@@ -111,7 +111,7 @@ export default function page() {
               Email or SMS or a Call!
             </Typography>
           </Box>
-          <Box width={"100%"} maxWidth={"300px"}>
+          <Box width={"100%"} maxWidth={"450px"}>
             <form>
               <List>
                 <ListItem>
