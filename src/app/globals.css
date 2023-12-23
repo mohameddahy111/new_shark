@@ -19,3 +19,22 @@ color: #000;
     border-radius: 50%;
 
 }
+.howwork_img{
+    height: 600px;
+    width: 100%;
+}
+
+.Rectangle_40{
+    height: 600px;
+    width: 400px;
+}
+
+.colore_usa{
+    background: -webkit-linear-gradient(0deg, #000000 1.89%, #D50000 17.75%, #0072DB 42.93%, #D70000 80.87%, #000000 100%);
+    background-blend-mode: darken;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  
+  }
+  

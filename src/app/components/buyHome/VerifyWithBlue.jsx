@@ -1,3 +1,5 @@
+'use client'
+
 import { Store } from '@/app/context/DataStore';
 import { Box, Typography } from '@mui/material'
 import Image from 'next/image'
