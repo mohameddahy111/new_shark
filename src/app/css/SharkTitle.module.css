@@ -40,3 +40,8 @@
 .wrapper {
   background-color: #fff;
 }
+@media screen and (max-width: 768px) {
+  .svg text {
+    font-size: 30px;
+  }
+}

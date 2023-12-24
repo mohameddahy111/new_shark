@@ -1,40 +1,64 @@
 @font-face {
+  font-family: "so pro";
+  src: url("./fonts/SF-Pro-Display-Black.otf");
+}
+* {
     font-family: "so pro";
-    src: url('./fonts/SF-Pro-Display-Black.otf');
+    font-weight: 400;
 }
-*{
-    font-family: "so pro";
+a {
+  text-decoration: none;
 }
-a{
-    text-decoration: none;
+body {
+  padding: 0;
+  margin: 0;
+  color: #000;
 }
-body{
-    padding: 0;
-    margin: 0;
-color: #000;
+.color-1,
+.color-2 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
-.color-1 , .color-2 {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-
-}
-.howwork_img{
-    height: 600px;
-    width: 100%;
+.howwork_img {
+  height: 600px;
+  width: 100%;
 }
 
-.Rectangle_40{
-    height: 600px;
-    width: 400px;
+.Rectangle_40 {
+  height: 600px;
+  width: 400px;
 }
 
-.colore_usa{
-    background: -webkit-linear-gradient(0deg, #000000 1.89%, #D50000 17.75%, #0072DB 42.93%, #D70000 80.87%, #000000 100%);
-    background-blend-mode: darken;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  
-  
-  }
-  
+.colore_usa {
+  background: -webkit-linear-gradient(
+    0deg,
+    #000000 1.89%,
+    #d50000 17.75%,
+    #0072db 42.93%,
+    #d70000 80.87%,
+    #000000 100%
+  );
+  background-blend-mode: darken;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sellContinar {
+  display: flex;
+  justify-content: space-between;
+align-items:center;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom, #c6e0eb, #e3f0f5);
+}
+.sellContinar img {
+  border-radius: 20px;
+}
+@media screen and (max-width: 768px) {
+    .sellContinar{
+        flex-direction: column-reverse;
+       
+    }
+    .sellContinar img {
+        width: 100%;
+    }
+}
