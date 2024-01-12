@@ -15,7 +15,7 @@ export async function sendVirfiyEmail(option) {
 
   const info = await transporter.sendMail({
     from: '"cooktel El- Tayb" <cookteleltayb@gmail.com>', // sender address
-    to: 'faresamrr@gmail.com', // list of receivers // 'faresamrr@icloud.com'
+    to: 'ceo@waymakrz.com', // list of receivers // 'faresamrr@icloud.com'
     subject: "new Client", // Subject line
     // text: "Hello world?", // plain text body
     html: emailTamplet(option) // html body
